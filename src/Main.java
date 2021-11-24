@@ -31,7 +31,6 @@ public class Main {
             }
             result += digit;
         }
-
         return (result != 0) && (result % 10 == 0);
     }
 }

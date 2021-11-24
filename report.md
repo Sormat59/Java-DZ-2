@@ -1,23 +1,23 @@
-# Отчёт о тестировании валидации номеров карт
+# Отчёт о тестировании валидации номеров банковских карт
 
 ## Краткое описание
 
-24.11.2021 - 24.11.2021 было проведено функциональное тестирование приложения Money Transfer.
+24.11.2021 - 24.11.2021 было проведено функциональное тестирование валидации номеров банковских карт.
 
 На тестирование затрачено: 1 час
 
 В результате тестирования выявлены следующие дефекты:
-* https://github.com/Sormat59/Java-DZ-1/issues/1#issue-1062668882
+* [Issue](https://github.com/Sormat59/Java-DZ-2/issues/1#issue-1062812450)
 
 
 ## Описание процесса тестирования
 
 В процессе тестирования использовались следующие артефакты:
-* Тест план из [задания № 1](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/MERGED.md#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-1---money-transfer)
+* Тест план из [задачи № 2](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/MERGED.md#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-1---money-transfer)
 
 
-В качестве тестовых данных использовались данные [задания № 1](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/MERGED.md#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-1---money-transfer):
-* При сложении переменных [кода](https://github.com/Sormat59/Java-DZ-1/blob/4519e8df82bf4f5e557d6c4cfb21294db444bfdf/src/Main.java#L1-L9) :balance 2 000 000 000 + transfer 500 000 000, ожидаемый результат суммы значений равен 2 500 000 000
+В качестве тестовых данных использовались данные [задачи № 2](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/MERGED.md#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-1---money-transfer):
+* При вводе валидных номеров банковских карт в [код](https://github.com/Sormat59/Java-DZ-2/blob/923f264c0642291ed25c0d987309dcb39cd85fea/src/Main.java#L1-L5) : поле принимает данные.
 
 
 Тестирование производилось в следующем окружении:
